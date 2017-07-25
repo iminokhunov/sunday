@@ -18,5 +18,5 @@ Route::get('/{locale?}', function ($locale='en') {
 });
 Route::get('/about',function(){
 
-    return "About page";
+    return "About page home";
 });
